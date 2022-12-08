@@ -5,10 +5,5 @@
   "repository": "git@github.com:zt4ff/ethereum_blockchain.git",
   "author": "Kayode Oluwasegun <segunkayode00@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.9.3"
-  },
-  "dependencies": {
-    "ethereum-cryptography": "^1.1.2"
-  }
+  "dependencies": {}
 }
