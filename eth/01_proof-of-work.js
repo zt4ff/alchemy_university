@@ -26,12 +26,3 @@ function mine() {
   block.hash = hashedBlock;
   blocks.push(block);
 }
-
-module.exports = {
-  TARGET_DIFFICULTY,
-  MAX_TRANSACTIONS,
-  addTransaction,
-  mine,
-  blocks,
-  mempool,
-};
