@@ -1,3 +1,4 @@
+// learning web3
 const SHA256 = require("crypto-js/sha256");
 const TARGET_DIFFICULTY =
   BigInt(0x0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff);
