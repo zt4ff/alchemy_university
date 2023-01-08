@@ -37,4 +37,16 @@ class Tree {
       parent.left = node;
     }
   }
+
+  hasNode(num, looper = this.root) {
+    if (num.data == looper.data) return true;
+    if (looper.data < num.data) {
+      // searching to the right
+      if (!looper.right) return false;
+      return this.hasNode(num, looper.right);
+    } else {
+      if (!looper.left) return false;
+      return this.hasNode(num, looper.left);
+    }
+  }
 }
